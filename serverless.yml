@@ -1,0 +1,15 @@
+service: paramiko-layer
+
+provider:
+  name: aws
+
+layers:
+  hello:
+    path: build
+    name: paramiko-layer
+    description: Provides Paramiko SSH library for Python
+    compatibleRuntimes:
+      - python3.7
+    allowedAccounts:
+      - '*'
+    retain: true
