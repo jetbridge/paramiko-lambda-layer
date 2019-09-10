@@ -7,7 +7,7 @@ provider:
 layers:
   paramiko:
     path: build
-    name: paramiko-layer
+    name: paramiko-py37
     description: Provides Paramiko SSH library for Python
     compatibleRuntimes:
       - python3.7

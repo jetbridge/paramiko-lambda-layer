@@ -3,6 +3,8 @@ By JetBridge.
 
 ## ARN
 ### Python 3.7
+- arn:aws:lambda:us-west-2:898466741470:layer:paramiko-py37:1
+- arn:aws:lambda:eu-central-1:898466741470:layer:paramiko-py37:1
 
 
 ## Serverless
