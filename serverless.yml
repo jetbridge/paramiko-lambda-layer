@@ -1,10 +1,11 @@
-service: paramiko-layer
+service: paramiko-py37
 
 provider:
   name: aws
+  profile: jb
 
 layers:
-  hello:
+  paramiko:
     path: build
     name: paramiko-layer
     description: Provides Paramiko SSH library for Python
