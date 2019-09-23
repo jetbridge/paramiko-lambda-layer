@@ -3,6 +3,7 @@ service: paramiko-py37
 provider:
   name: aws
   profile: jb
+  region: ${opt:region, 'eu-central-1'}
 
 layers:
   paramiko:
