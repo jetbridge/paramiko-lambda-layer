@@ -3,11 +3,14 @@ By JetBridge.
 
 ## ARN
 ### Python 3.7
+- arn:aws:lambda:us-east-1:898466741470:layer:paramiko-py37:2
 - arn:aws:lambda:us-west-2:898466741470:layer:paramiko-py37:1
+- arn:aws:lambda:ca-central-1:898466741470:layer:paramiko-py37:1
 - arn:aws:lambda:eu-central-1:898466741470:layer:paramiko-py37:1
 - arn:aws:lambda:eu-west-1:898466741470:layer:paramiko-py37:1
+- arn:aws:lambda:eu-west-2:898466741470:layer:paramiko-py37:1
+- arn:aws:lambda:eu-west-3:898466741470:layer:paramiko-py37:1
 - arn:aws:lambda:ap-southeast-2:898466741470:layer:paramiko-py37:1
-- arn:aws:lambda:us-east-1:898466741470:layer:paramiko-py37:2
 
 ## Serverless
 If using serverless, you will need the following in your `serverless.yml`:
