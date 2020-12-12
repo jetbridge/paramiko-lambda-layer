@@ -1,4 +1,4 @@
-service: paramiko-py37
+service: paramiko-py38
 
 provider:
   name: aws
@@ -8,10 +8,10 @@ provider:
 layers:
   paramiko:
     path: build
-    name: paramiko-py37
+    name: paramiko-py38
     description: Provides Paramiko SSH library for Python
     compatibleRuntimes:
-      - python3.7
+      - python3.8
     allowedAccounts:
       - '*'
     retain: true
