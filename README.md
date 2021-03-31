@@ -10,6 +10,7 @@ By JetBridge.
 - arn:aws:lambda:eu-west-1:898466741470:layer:paramiko-py37:1
 - arn:aws:lambda:eu-west-2:898466741470:layer:paramiko-py37:1
 - arn:aws:lambda:eu-west-3:898466741470:layer:paramiko-py37:1
+- arn:aws:lambda:ap-south-1:898466741470:layer:paramiko-py37:1
 - arn:aws:lambda:ap-southeast-2:898466741470:layer:paramiko-py37:1
 ### Python 3.8
 - arn:aws:lambda:ap-northeast-1:898466741470:layer:paramiko-py38:1
